@@ -1,7 +1,7 @@
 # Etapa de aprendizaje Golden!
   - 👋 Bienvenidos a mi repositorio de Git, soy Santiago Rodríguez, desarrollador FullStack en el módulo de GoldenBerry. 
   - 🤓 Estudiante de ingeniería de sistemas, de la Universidad ECCI. 
- 🌱 Visita mis diseños de [Práctica en figma](https://www.figma.com/file/u7mGRaglGjc7j27xGjyySm/Reto--SANTIAGO)
+  - 🌱 Visita mis diseños de [Práctica en figma](https://www.figma.com/file/u7mGRaglGjc7j27xGjyySm/Reto--SANTIAGO)
   
 ## Etapas de aprendizaje
 Para iniciar quiero agradecer a mi mentor [@Didier Martinez](https://github.com/reidid) quien me eligió para ser parte de su equipo de **GoldenBerry**, para mi es una nueva etapa y una oportunidad de ampliar mis conocimientos en el mundo del diseño y desarrollo web. 
