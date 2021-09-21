@@ -21,3 +21,11 @@ En la semana comprendida del **13 al 17 de Septiembre** estuve descubriendo la h
 
 - Así mismo realicé desde cero los iconos que usa Gmail, basandome en sus diseños. 
 ![Iconos Gmail](https://user-images.githubusercontent.com/90514403/134246157-724b0c88-a303-49d1-add4-d2235db2c6b0.PNG)
+
+
+▶ Para el diseño de iconos me guíe del video *[Figma iconography tutorial](https://www.youtube.com/watch?v=10fSci2vXtE)*
+
+- En el segundo día de la semana repliqué el diseño de una Landing Page, guiado por el vídeo tutorial [*Design a Website in under 1 hour with Figma*](https://www.youtube.com/watch?v=FK4YusHIIj0&t=14s)
+![Landig Page](https://user-images.githubusercontent.com/90514403/134248246-baf844e5-57e3-4a2e-8d23-9a193122f557.PNG)
+
+>Este ejercicio me gustó mucho por que aprendí a detallar y alinear los elementos a las columnas y así mismo las técnicas para crear diseños que para mi fueron completamente nuevos y una experiencia muy cool. Este vídeo ha sido uno de los que más me ha gustado del diseño en Figma. 
