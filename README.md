@@ -20,4 +20,4 @@ En la semana comprendida del **13 al 17 de Septiembre** estuve descubriendo la h
 ![Home Gmail](https://user-images.githubusercontent.com/90514403/134243940-815dec7d-5df1-453d-8685-7c968b6b4056.PNG)
 
 - Así mismo realicé desde cero los iconos que usa Gmail, basandome en sus diseños. 
-![image](https://user-images.githubusercontent.com/90514403/134237289-12855aef-4295-470d-a786-dc11f3ea7950.png)
+![Iconos Gmail](https://user-images.githubusercontent.com/90514403/134246157-724b0c88-a303-49d1-add4-d2235db2c6b0.PNG)
