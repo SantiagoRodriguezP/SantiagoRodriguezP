@@ -15,5 +15,9 @@ Para iniciar, se ha sugerido seguir etapas de aprendizaje desde "cero", con el f
 En la semana comprendida del **13 al 17 de Septiembre** estuve descubriendo la herramienta de diseño **Figma**, aunque ya había tenido la oportunidad de trabajar con ella en una ocasión, no conocía a profundidad cada una de las funcionalidades que nos ofrece para crear diseños. 
 >Figma es un editor de gráficos vectorial y una herramienta de generación de prototipos, principalmente basada en la web.
 
+- En principio se propuso replicar el diseño de una página Web, para mi caso escojí ***Gmail***; Para ello incie replicando el diseño del Home principal de una cuenta personal. 
 
+![Home Gmail](https://user-images.githubusercontent.com/90514403/134243940-815dec7d-5df1-453d-8685-7c968b6b4056.PNG)
+
+- Así mismo realicé desde cero los iconos que usa Gmail, basandome en sus diseños. 
 ![image](https://user-images.githubusercontent.com/90514403/134237289-12855aef-4295-470d-a786-dc11f3ea7950.png)
