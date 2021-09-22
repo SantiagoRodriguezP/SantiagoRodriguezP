@@ -1,6 +1,6 @@
 # Etapa de aprendizaje Golden!
-  - 👋 Bienvenidos a mi repositorio de Git, soy Santiago Rodríguez, desarrollador FullStack en el módulo de GoldenBerry. 
-  🤓 Estudiante de ingeniería de sistemas, de la Universidad ECCI. 
+ - 👋 Bienvenidos a mi repositorio de Git, soy Santiago Rodríguez, desarrollador FullStack en el módulo de GoldenBerry. 
+ - 🤓 Estudiante de ingeniería de sistemas, de la Universidad ECCI. 
  - 🌱 Visita mis diseños de [Práctica en figma](https://www.figma.com/file/u7mGRaglGjc7j27xGjyySm/Reto--SANTIAGO)
   
 ## Etapas de aprendizaje
@@ -42,6 +42,7 @@ Para este tema estuve explorando el vídeo titulado [*Figma Tutorial - ¿Qué es
 -  Organismos
 -  Plantillas
 - Páginas
+
 Para comprender un poco más acerca de este tema elaboré una infografía que da más visión de ello. 
 ![Niveles de Atomic Design](https://user-images.githubusercontent.com/90514403/134364234-f22bf4e3-8993-4ed1-8099-25445cc6059a.png)
 
