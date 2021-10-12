@@ -54,6 +54,8 @@ Este vídeo fue entretenido por que da algunos consejos de como debería ser un 
 
 # Workouts
 ### 12/10/2021
-Esta semana inicie con los Workouts, el primer reto propuesto fue diseñar una Tarjeta Responsiva, tanto en Figma como hacerla en Html y Css. El proceso en Figma muy fácil, ya se me facilita la herramienta; Lo que debo decir que ha sido complicado es la parte de los diseños respponsivos, he mirado uno que otro tutorial, me he documentado, pero se me ha dificultado un poco, ya que el diseño en Css no es mi fuerte, venia aconstumbrado a trabajar unicamente con Boostrap y ese es el error que cometemos los novatos; Antes de utilizar Boostrap, deberiamos aprender Css, cada una de sus funciones y demás. 
+Esta semana inicie con los Workouts, el primer reto propuesto fue diseñar una Tarjeta Responsiva, tanto en Figma como hacerla en Html y Css. El proceso en Figma muy fácil, ya se me facilita la herramienta; Lo que debo decir que ha sido complicado es la parte de los diseños respponsivos, sobretodo @mediaquery ya que no lo había trabajado mucho, he mirado uno que otro tutorial, me he documentado, pero se me ha dificultado un poco, ya que el diseño en Css no es mi fuerte, venia aconstumbrado a trabajar unicamente con Boostrap y ese es el error que cometemos los novatos; Antes de utilizar Boostrap, deberiamos aprender Css, cada una de sus funciones y demás. 
 
+
+![image](https://user-images.githubusercontent.com/90514403/136997860-7fdd4d6f-fde3-4ff5-bd6c-3a3783117a9c.png)
 
