@@ -51,3 +51,9 @@ Para comprender un poco más acerca de este tema elaboré una infografía que da
 Por otro lado debo decir que estuve descubriendo y aprendiendo lo que se ha titulado 
 "Los 10 mandamientos del diseño" del vídeo [*You Suck at Form Design*](https://www.youtube.com/watch?v=z9H7p1_iI14).
 Este vídeo fue entretenido por que da algunos consejos de como debería ser un buen diseño de un formulario de contacto, o una página en general; Es a penas un abrebocas pero es muy útil la información. 
+
+#Workouts
+###12/10/2021
+Esta semana inicie con los Workouts, el primer reto propuesto fue diseñar una Tarjeta Responsiva, tanto en Figma como hacerla en Html y Css. El proceso en Figma muy fácil, ya se me facilita la herramienta; Lo que debo decir que ha sido complicado es la parte de los diseños respponsivos, he mirado uno que otro tutorial, me he documentado, pero se me ha dificultado un poco, ya que el diseño en Css no es mi fuerte, venia aconstumbrado a trabajar unicamente con Boostrap y ese es el error que cometemos los novatos; Antes de utilizar Boostrap, deberiamos aprender Css, cada una de sus funciones y demás. 
+
+
