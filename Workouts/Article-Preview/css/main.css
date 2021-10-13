@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+@font-face {
+    font-family: "Manrope";
+    src: url(https://fonts.google.com/specimen/Manrope);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0px 10px 0px 25px;
+}
+.card-container{
+    background-color: #fff;
+    border-radius: 10px;
+    /* height: auto;
+    display: flex;
+   
+    position: absolute;
+    max-width: 800px;
+    left: auto;
+    top: 50%; */
+    display: flex;
+    height: auto;
+    /* max-width: 40%; */
+    width: 730px;
+    height: 280px;
+}
+.texto{
+    position: relative;
+}
+
+
+h2{
+    font-weight: 700;
+    color: hsla(217, 19%, 35%, 1);
+    font-family: Manrope;
+}
+p{
+    font-size: 13px;
+    color: hsla(212, 23%, 69%, 1);
+    font-family: Manrope;
+    font-weight: normal;
+}
+.image{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    border-radius: 10px;
+}
+.image img {
+    border-radius: 10px 0 0 10px;
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    max-height: 400px;
+    min-width: 200px;
+}
+.content{
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.texto p{
+    color: hsla(212, 23%, 69%, 1);
+    margin-top: 20px;
+    line-height: 20px;
+}
+.profile-name h3 {
+    color:hsla(214, 17%, 51%, 1);
+    font-weight: 700;
+    font-size: 16px;
+}
+.profile-name h4 {
+    color:hsla(212, 23%, 69%, 1);
+    font-weight: 700;
+    font-size: 12px;
+}
+footer{
+    display: flex;
+    /* padding-top: 5px; */
+    margin-top: 15px;
+    padding: 5px  10px 9px 5px;
+}
+/* footer .avatar{
+    margin-left: 0px;
+} */
+footer h3, footer h4{
+    margin: 5px;
+    padding-bottom: 5px;
+}
+footer h3{
+    font-weight: 700;
+}
+footer h4{
+    font-weight: 500;
+}
+.imgAvatar{
+    /* width: 100%; */
+    height: auto;
+    max-width: 60px;
+    border-radius: 30px;
+}
+.photoAvatar{
+    border-radius: 20%;
+    margin-left: 2px;
+}
+.avatar{
+    display:flex;
+}
+.profile-name{
+    margin-left: 10px;
+}
+.icon-share{
+    /* border: 1px solid hsl(210, 46%, 95%); */
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: hsl(210, 46%, 95%);
+    /* margin: 0 0 0 auto; */
+    /* margin-left: auto; */
+    position: absolute;
+}
+.btnShare{
+    margin-left: 150px;
+    position: relative;
+}
+.iconShare{
+    color: hsl(217, 19%, 35%);
+    top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    top:50px;
+    padding: 10px;
+}
+
+.btnShare .tooltiptext{
+    visibility: hidden;
+    width: 285px;
+    background-color: hsl(217, 19%, 35%);
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    padding: 5px 10px;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+    bottom: 115%;
+    margin-left: -150px;
+}
+.btnShare .tooltiptext img{
+    display: inline-block;
+    padding: 0 15px;
+    margin-top: 10px;
+}
+.btnShare:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .tooltiptext::after{
+      content: "";
+      display: block;
+      border-top: 20px solid hsl(217, 19%, 35%);
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      position: absolute;
+      left: calc(50%);
+  }
+@media only screen and (max-width: 700px) { 
+    .card-container {
+        display: block;
+        width: 330px;
+        height: 550px;
+      }
+      .image{
+          padding: 0 0px 30px 0px;
+      }
+      .image img{
+        border-radius: 10px 10px 0 0;
+      }
+      .content{
+          padding: 0;
+          margin: 5px 0px 10px 5px;
+      }
+      .texto{
+          padding: 0px 20px 5px 19px;
+          margin: 0;
+      }
+      .texto h2{
+          margin: 0;
+          font-size: 14px;
+      }
+      .btnShare {
+          z-index: 2;
+          display: flex;
+          position: relative;
+          right: 60px;
+      }
+      .btnShare .tooltiptext{
+        display: flex;
+        position: absolute;
+        right: -54px;
+        top: 0;
+        /* visibility: visible; */
+        width: 330px;
+        height: 73px;
+      }
+      .btnShare .tooltiptext img{
+        display: inline-block;
+        padding: 0 10px;
+        margin-top: 5px;
+    }
+    .tooltiptext::after{
+        content: "";
+        border-top: 0px ;
+        left: 0;
+    }
+    .icon-share{
+        display: flex;
+        z-index: 2;
+        background-color: hsl(210 46% 95%);
+        border: none;
+        top: 15px;
+    }
+    .btnShare:hover .iconShare {
+        filter: hue-rotate(131deg) brightness(500%);
+        color: hsl(214, 17%, 51%);
+    }
+    .btnShare:hover .icon-share {
+        background-color: hsl(214, 17%, 51%);
+    }
+
+    .texto p > br {
+        display: none;
+    }
+    footer{
+        padding: 0;
+    }
+    .redes-sociales{
+        display: flex;
+        align-items: center;
+        padding: 0px 0px 0 50px;
+    }
+    
+}
