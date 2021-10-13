@@ -31,7 +31,9 @@ body{
     height: auto;
     /* max-width: 40%; */
     width: 730px;
-    height: 280px;
+    height: 309px;
+    border: solid;
+    flex-flow: row nowrap;
 }
 .texto{
     position: relative;
@@ -50,9 +52,11 @@ p{
     font-weight: normal;
 }
 .image{
+    background-image: url('../images/drawers.jpg');
     max-width: 100%;
     height: auto;
     display: flex;
+    flex: 1 1 30%;
     border-radius: 10px;
 }
 .image img {
@@ -64,10 +68,13 @@ p{
     min-width: 200px;
 }
 .content{
-    margin-left: 40px;
-    border-radius: 10px;
-    margin-top: 20px;
-    width: 100%;
+    /* margin-left: 40px; */
+    /* border-radius: 10px; */
+    /* margin-top: 20px; */
+    /* width: 100%; */
+    padding: 29px;
+    /* border: solid; */
+    flex: 1 1 70%;
 }
 
 .texto p{
@@ -140,8 +147,8 @@ footer h4{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    top:50px;
-    padding: 10px;
+    top: 50px;
+    padding: 13px;
 }
 
 .btnShare .tooltiptext{
@@ -183,7 +190,8 @@ footer h4{
         height: 550px;
       }
       .image{
-          padding: 0 0px 30px 0px;
+      
+        padding: 0 0px 30px 0px;
       }
       .image img{
         border-radius: 10px 10px 0 0;
