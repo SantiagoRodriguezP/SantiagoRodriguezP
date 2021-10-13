@@ -43,7 +43,6 @@ body{
 h2{
     font-weight: 700;
     color: hsla(217, 19%, 35%, 1);
-    font-family: Manrope;
 }
 p{
     font-size: 13px;
@@ -53,11 +52,13 @@ p{
 }
 .image{
     background-image: url('../images/drawers.jpg');
+    background-size: cover;
+    border-radius: 6px 0px 0px 6px;
     max-width: 100%;
     height: auto;
     display: flex;
-    flex: 1 1 30%;
-    border-radius: 10px;
+    flex: 1 1 55%;
+    flex-flow: row;
 }
 .image img {
     border-radius: 10px 0 0 10px;
@@ -72,7 +73,7 @@ p{
     /* border-radius: 10px; */
     /* margin-top: 20px; */
     /* width: 100%; */
-    padding: 29px;
+    padding: 30px;
     /* border: solid; */
     flex: 1 1 70%;
 }
@@ -138,7 +139,7 @@ footer h4{
     position: absolute;
 }
 .btnShare{
-    margin-left: 150px;
+    margin-left: 80px;
     position: relative;
 }
 .iconShare{
@@ -147,7 +148,7 @@ footer h4{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    top: 50px;
+    top: 40px;
     padding: 13px;
 }
 
@@ -190,18 +191,18 @@ footer h4{
         height: 550px;
       }
       .image{
-      
-        padding: 0 0px 30px 0px;
+          padding: 0 0px 215px 0px;
+          border-radius: 6px 6px 0px 0px;
       }
       .image img{
         border-radius: 10px 10px 0 0;
       }
       .content{
           padding: 0;
-          margin: 5px 0px 10px 5px;
+          margin: 29px 0px 20px 5px;
       }
       .texto{
-          padding: 0px 20px 5px 19px;
+          padding: 0px 20px 55px 20px;
           margin: 0;
       }
       .texto h2{
@@ -216,12 +217,13 @@ footer h4{
       }
       .btnShare .tooltiptext{
         display: flex;
-        position: absolute;
-        right: -54px;
-        top: 0;
-        /* visibility: visible; */
-        width: 330px;
-        height: 73px;
+        position: relative;
+        right: 20px;
+        top: 0px;
+        visibility: visible;
+        width: 325px;
+        height: 100px;
+        border-radius: 0px 0px 6px 6px;
       }
       .btnShare .tooltiptext img{
         display: inline-block;
@@ -238,7 +240,8 @@ footer h4{
         z-index: 2;
         background-color: hsl(210 46% 95%);
         border: none;
-        top: 15px;
+        top: 30px;
+        left: 100px;
     }
     .btnShare:hover .iconShare {
         filter: hue-rotate(131deg) brightness(500%);
