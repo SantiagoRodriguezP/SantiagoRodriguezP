@@ -124,6 +124,7 @@ footer h4{
 }
 .avatar{
     display:flex;
+    flex: 1 1 25%;
 }
 .profile-name{
     margin-left: 10px;
@@ -202,11 +203,15 @@ footer h4{
           margin: 29px 0px 20px 5px;
       }
       .texto{
-          padding: 0px 20px 55px 20px;
+          padding: 0px 20px 26px 20px;
           margin: 0;
       }
       .texto h2{
           margin: 0;
+          font-size: 18px;
+      }
+       .texto p{
+          
           font-size: 14px;
       }
       .btnShare {
@@ -214,13 +219,14 @@ footer h4{
           display: flex;
           position: relative;
           right: 60px;
+          bottom: 20px;
       }
       .btnShare .tooltiptext{
         display: flex;
         position: relative;
-        right: 20px;
-        top: 0px;
-        visibility: visible;
+        right: 5px;
+        top: 16px;
+        /* visibility: visible; */
         width: 325px;
         height: 100px;
         border-radius: 0px 0px 6px 6px;
@@ -240,7 +246,7 @@ footer h4{
         z-index: 2;
         background-color: hsl(210 46% 95%);
         border: none;
-        top: 30px;
+        top: 45px;
         left: 100px;
     }
     .btnShare:hover .iconShare {
@@ -261,6 +267,15 @@ footer h4{
         display: flex;
         align-items: center;
         padding: 0px 0px 0 50px;
+    }
+   .imgAvatar{
+    
+        height: auto;
+        max-width: 45px;
+        border-radius: 30px;
+    }
+    .photoAvatar{
+        margin-top: 10px;
     }
     
 }
