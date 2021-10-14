@@ -5,6 +5,7 @@
 }
 body{
     background-color: hsl(210, 46%, 95%);
+    font-family: "Manrope";
 }
 @font-face {
     font-family: "Manrope";

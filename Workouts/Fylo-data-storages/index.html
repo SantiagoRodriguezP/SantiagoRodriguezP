@@ -2,25 +2,34 @@
 <html>
     <head>
         <title>Fyle data storage</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="images/favicon-32x32.png">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <div class="image-footer">
+            <div class="container">
         <div class="fylo">
-            <div class="icon-document">
-                <img src="images/icon-document.svg" alt="document">
+            <div class="icon-fylo">
+                <img src="images/logo.svg" alt="logo">
             </div>
-            <div class="icon-folder">
-                <img src="images/icon-folder.svg" alt="folder">
-            </div>
-            <div class="icon-upload">
-                <img src="images/icon-upload.svg" alt="upload">
+            <div class="icons">
+                <div class="div-icon">
+                    <img src="images/icon-document.svg" alt="document">
+                </div>
+                <div class="div-icon">
+                    <img src="images/icon-folder.svg" alt="folder">
+                </div>
+                <div class="div-icon">
+                    <img src="images/icon-upload.svg" alt="upload">
+                </div>
             </div>
         </div>
         <div class="storage">
             <label>You’ve used <b>815 GB</b> of your storage</label>
-            <div class="progress">
-                <progress value="70" max="100">70 %</progress>
-            </div>>
+            <div class="progress"> 
+                <div class="progress__bar"></div>
+              </div>
             <div class="info-data">
                 <label>0 GB</label>
                 <label>100 GB</label>
@@ -30,5 +39,8 @@
                 <h3>GB LEFT</h3>
             </div>
         </div>
+    </div>
+    </div>
+    
     </body>
 </html>
