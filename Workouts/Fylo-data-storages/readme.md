@@ -3,6 +3,9 @@ En este ejercicio praciqué un poco más el diseño responsive, pero por alguna 
 en este ejercicio como en el anterior utilicé @mediaquery para que sea Responsive. 
 Al principio se me dificulto un poco acomodar el backdround-image en el footer de la página, ya que primero intenté setearle la imagen al Body directamente y no en un Div como lo resulté haciendo.
 
+De igual manera siento que en Figma ya se manejar bien la herramienta, se que no 100% pero se me facilita hacer los diseños, como por ejemplo el diseño de 
+[Fylo Data Storage](https://www.figma.com/file/w5btuPtYe8AWQt8HVJR4jh/Workouts?node-id=73:2)
+
 > Considero que con un poco de retroalimentación y más práctica podría mejorar tanto el diseño como lo Responsive
 
 ## Resultado Web
