@@ -9,10 +9,9 @@ body{
     src: url("https://fonts.google.com/specimen/Raleway");
 }
 .image-footer{
-    background-image: url(images/bg-desktop.png);   
-    /* background-size: cover;
+    background-image: url(images/bg-desktop.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top; */
     position: fixed;
     left: 0;
     bottom: 0;
@@ -20,14 +19,17 @@ body{
 }
 
 .fylo{
-    width: 357px;
-    height: 203px;
-    background-color:hsl(228, 56%, 26%) ;
+    width: 419px;
+    height: 227px;
+    background-color:hsl(228, 56%, 26%);
     border-radius: 10px 130px 10px 10px;
+    margin: 0px 0px 0px 225px;
+    bottom: 110px;
+    position: relative;
 }
 .icon-fylo{
     display: block;
-    padding: 31px 21px;
+    padding: 31px 57px;
 }
 .div-icon{
     width: 50px;
@@ -41,32 +43,37 @@ body{
     /* padding: 0px 0px 0px 33px; */
     align-items: center;
     text-align: center;
+    margin-left: 40px;
 }
 
 .storage{
     width: 540px;
-    height: 156px;
+    height: 155px;
     background-color: hsl(228, 56%, 26%);
     display: flex;
     border-radius: 10px;
     position: absolute;
-    left: 643px;
-    bottom: 98px;
+    left: 690px;
+    bottom: 320px;
 }
 .container{
     display: flex;
-    /* padding: 10px 18px 14px 14px; */
+    padding: 10px 18px 207px 14px;
 }
 h1{
     font-weight: 700;
     color: black;
+    margin: 15px;
+    font-size: 36px;
+    margin-top: 20px;
 }
 h3{
     font-weight: 400;
     color: #9FA0A5;
+    margin-top: 29px;
 }
 .div-icon img{
-    margin-top: 10px;
+    margin-top: 16px;
 }
 
 .progress {
@@ -76,6 +83,10 @@ h3{
     height: 10%;
     border-radius: 20px;
     background: #0C122C;
+    position: absolute;
+    /* margin: 78px 25px; */
+    top: 15px;
+    left: 35px;
   }
   
   .progress .progress__bar {
@@ -90,3 +101,91 @@ h3{
     from {width: 0%;}
     to {width: 70%;}
   }
+  .tooltip{
+      width: 180px;
+      height: 78px;
+      background-color: #FFFFFD;
+      border-radius: 10px 10px 0px 10px;
+      bottom: 142px;
+      position: absolute;
+      z-index: 1;
+      margin-left: 278px;
+      display: flex;
+  }
+  .tooltip::after{
+      content: "";
+      display: block;
+      border-top: 20px solid white;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      position: absolute;
+      left: calc(79%);
+      top: calc(92%);
+  }
+
+  .text{
+      position: absolute;
+      left: 37px;
+      top: 40px;
+  }
+  .info-data{
+      display: flex;
+      position: absolute;
+      top: 95px;
+      left: 38px;
+  }
+  .info-data label {
+      /* position: relative; */
+      /* margin-left: 177px; */
+      display: inline-block;
+      width: 378px;
+  }
+  @media only screen and (max-width: 700px) { 
+    .image-footer{
+        background-image: url(images/bg-mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        left: 0;
+        bottom: 0px;
+        height: 100%;
+    }
+    .fylo{
+        position: fixed;
+        margin: 0px;
+        top: 155px;
+        width: 329px;
+        height: 246px;
+    }
+    .storage{
+        position: fixed;
+        width: 329px;
+        height: 197px;
+        left: 20px;
+        bottom: 195px;
+    }
+    .info-data {
+        top: 100px;
+    }
+    .info-data label{
+        display: inline-block;
+        width: 215px;
+    }
+    .text{
+        left: 55px;
+    }
+    .tooltip{
+        position: fixed;
+        z-index: 1;
+        margin-left: 78px;
+        border-radius: 10px;
+    }
+    .tooltip::after{
+        content: "";
+        border-top: 0px ;
+        left: 0;
+    }
+    h1{
+        font-size: 48px;
+        margin-top: 10px;
+    }
+}
