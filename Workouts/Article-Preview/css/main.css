@@ -74,7 +74,7 @@ p{
     /* border-radius: 10px; */
     /* margin-top: 20px; */
     /* width: 100%; */
-    padding: 30px;
+    padding: 20px;
     /* border: solid; */
     flex: 1 1 70%;
 }
@@ -99,6 +99,7 @@ footer{
     /* padding-top: 5px; */
     margin-top: 15px;
     padding: 5px  10px 9px 5px;
+    width: 90%;
 }
 /* footer .avatar{
     margin-left: 0px;
@@ -204,7 +205,7 @@ footer h4{
           margin: 29px 0px 20px 5px;
       }
       .texto{
-          padding: 0px 20px 26px 20px;
+          padding: 0px 20px 20px 20px;
           margin: 0;
       }
       .texto h2{
@@ -263,6 +264,7 @@ footer h4{
     }
     footer{
         padding: 0;
+        width: 80%;
     }
     .redes-sociales{
         display: flex;

@@ -68,7 +68,7 @@ h1{
     margin-top: 20px;
 }
 h3{
-    font-weight: 400;
+    font-weight: 700;
     color: #9FA0A5;
     margin-top: 29px;
 }
@@ -169,6 +169,7 @@ h3{
     .info-data label{
         display: inline-block;
         width: 215px;
+        font-weight: 400;
     }
     .text{
         left: 55px;
@@ -176,8 +177,9 @@ h3{
     .tooltip{
         position: fixed;
         z-index: 1;
-        margin-left: 78px;
+        margin-left: 69px;
         border-radius: 10px;
+        width: 200px;
     }
     .tooltip::after{
         content: "";
