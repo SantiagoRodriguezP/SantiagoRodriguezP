@@ -15,3 +15,5 @@ De igual manera siento que en Figma ya se manejar bien la herramienta, se que no
 ## Resultado Mobile 
 
 ![image](https://user-images.githubusercontent.com/90514403/137401343-9a24b0ef-cd1e-4b0f-a09b-5d4831eddceb.png)
+
+Una vez recibida la retroalimentación decidí refactorizar mis estilos Css, tratando de manejar y aplicar Flexbox; El resultado me gustó, se adapta mejor y el código es más limpio que el anterior, sin embargo aún falta uno que otro retoque. 
