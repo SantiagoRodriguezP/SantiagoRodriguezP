@@ -137,10 +137,10 @@ aside {
     height: 20px;
     border-radius: 20px;
     margin: 10px 0 10px 0;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* box-sizing: border-box; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
 }
 
 .progress {
@@ -163,11 +163,11 @@ aside {
 }
 
 .data {
-    width: 100%;
-    font-weight: 400;
+    /* width: 100%; */
+    /* font-weight: 400; */
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    /* font-size: 15px; */
 }
 
 article {
@@ -276,23 +276,17 @@ article::after{
         top: auto;
         left: auto;
     }
-    .icons{
-        /* width: 60px; */
-        /* height: 60px; */
-    }
-    .icons >  img{
-        /* width: 60%; */
-        /* height: auto; */
-    }
-    .doc{
-        /* width: 50% !important; */
-        /* height: auto; */
+    .bar{
+        width: 80%;
+        height: 20px;
+        margin-bottom: 10px;
+        padding: 3px;
     }
     .data{
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        font-size: 18px;
+        /* display: flex; */
+        width: 80%;
+        /* justify-content: space-between; */
+        /* font-size: 15px; */
     }
     .barContainer{
         align-items: center;
