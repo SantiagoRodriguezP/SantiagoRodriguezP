@@ -148,6 +148,7 @@ h3{
         left: 0;
         bottom: 0px;
         height: 100%;
+        flex:  1 1 1;
     }
     .fylo{
         position: fixed;

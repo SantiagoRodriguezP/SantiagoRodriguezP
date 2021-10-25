@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Inter-light;
+    src: url(fuentes/Inter/static/Inter-Light.ttf);
+}
+
+@font-face {
+    font-family: Medium-light;
+    src: url(fuentes/Inter/static/Inter-Medium.ttf);
+}
+@font-face {
+    font-family: Bold-light;
+    src: url(fuentes/Inter/static/Inter-Bold.ttf);
+}
+body::before{
+    background-image: url(images/pattern-curve.svg);
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: 100%;
+    height: 16%;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: end;
+    align-self: end;
+    align-items: end;
+}
+body{
+    margin: 0;
+    font-family: Inter;
+    font-size: 32px;
+}
+main{
+    /* border: solid 1px darkgoldenrod; */
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    /* top: calc(18% - 100px); */
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    /* margin-left: 15px; */
+}
+.profile{
+    width: 100%;
+    height: auto;
+}
+main aside:nth-child(1) {
+    /* border: solid 1px springgreen; */
+    width: 760px;
+    height: 660px;
+    position: relative;
+}
+main aside:nth-child(1)::before{
+    content: "";
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    background-image:url(images/pattern-bg.svg);
+    /* background-size: cover; */
+    background-repeat:no-repeat;
+}
+main aside article:nth-child(1){
+    /* border: solid 1px purple; */
+    width: 541px;
+    height: 540px;
+    position: relative;
+    top: 63px;
+    left: 62px;
+}
+.boton{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    bottom: 40px;
+    left: 66px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.quotes{
+    position: relative;
+    /* right: 545px; */
+    bottom: 45px;
+    left: 236px;
+    /* justify-content: stretch; */
+    /* align-items: start; */
+    /* align-self: flex-start; */
+}
+main aside:nth-child(2){
+    /* border: solid 1px sandybrown; */
+    display: flex;
+    width: 43%;
+    height: 50%;
+    z-index: 1;
+}
+.txt{
+    position: absolute;
+    width: 42%;
+    left: 158px;
+}
+span{
+    font-size: 20px;
+}
+.name{
+    font-family: Bold-light;
+}
+.career{
+    font-family:  Medium-light;
+    color: #BAB8CE;
+}
+p{
+    font-family: Inter-light;
+    font-size: 28px;
+}

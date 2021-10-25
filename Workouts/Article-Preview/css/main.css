@@ -8,8 +8,13 @@ body{
     font-family: "Manrope";
 }
 @font-face {
-    font-family: "Manrope";
-    src: url(https://fonts.google.com/specimen/Manrope);
+    font-family: Manrope;
+    src: url(fuentes/Manrope/static/Manrope-Regular.ttf);
+}
+
+@font-face {
+    font-family: Bold-Manrope;
+    src: url(fuentes/Manrope/static/Manrope-Bold.ttf);
 }
 .container{
     display: flex;
@@ -31,8 +36,8 @@ body{
     display: flex;
     height: auto;
     /* max-width: 40%; */
-    width: 730px;
-    height: 309px;
+    width: 800px;
+    height: 295px;
     border: solid;
     flex-flow: row nowrap;
 }
@@ -42,7 +47,7 @@ body{
 
 
 h2{
-    font-weight: 700;
+    font-family: Manrope-Bold;
     color: hsla(217, 19%, 35%, 1);
 }
 p{
@@ -115,9 +120,9 @@ footer h4{
     font-weight: 500;
 }
 .imgAvatar{
-    /* width: 100%; */
+    width: 100%;
     height: auto;
-    max-width: 60px;
+    max-width: 30px;
     border-radius: 30px;
 }
 .photoAvatar{
