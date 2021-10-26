@@ -10,5 +10,4 @@ Sin embargo me parecen ejercicios muy interesantes ya que se refuerza el Html y 
 ![image](https://user-images.githubusercontent.com/90514403/138899774-de6aa7af-699b-434a-9992-6388626f79ac.png)
 
 ## Resultados Mobile
-
-![image](https://user-images.githubusercontent.com/90514403/138899937-fdba4c9c-7845-42df-880a-e5cf04f4168c.png)
+![image](https://user-images.githubusercontent.com/90514403/138907097-393cf21f-ca17-4f69-8b72-467e10f32a54.png)
