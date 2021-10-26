@@ -7,7 +7,7 @@ Aún no sé si hay bases debiles que debo fortalecer, así mismo se me dificulta
 Sin embargo me parecen ejercicios muy interesantes ya que se refuerza el Html y Css, espero seguir mejorando en cada uno de mis próximos diseños. 
 
 ## Resultado Diseño Web 
-![image](https://user-images.githubusercontent.com/90514403/138899774-de6aa7af-699b-434a-9992-6388626f79ac.png)
+![image](https://user-images.githubusercontent.com/90514403/138907439-115020ca-06ee-4f4c-8dbc-ed5abc4f0c95.png)
 
 ## Resultados Mobile
 ![image](https://user-images.githubusercontent.com/90514403/138907097-393cf21f-ca17-4f69-8b72-467e10f32a54.png)
