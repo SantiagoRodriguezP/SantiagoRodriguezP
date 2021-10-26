@@ -90,9 +90,8 @@ main aside article:nth-child(1){
 }
 .quotes{
     position: relative;
-    /* right: 545px; */
-    bottom: 118px;
-    left: 260px;
+    top: 65px;
+    left: 170px;
     /* justify-content: stretch; */
     /* align-items: start; */
     /* align-self: flex-start; */
