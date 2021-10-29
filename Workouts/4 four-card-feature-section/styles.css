@@ -14,26 +14,43 @@
     font-family: ExtraLight-Poppins;
     src: url(fuentes/Poppins-ExtraLight.ttf);
 }
+body{
+    background-color: #FAFAFA;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+}
 header{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 30%;
+    height: 15%;
     position: relative;
 }
 article{
     width: 100%;
-    height: 70%;
+    height: 75%;
 }
 .row{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-self: center;
+    position: relative;
+    top: 150;
 }
 .column{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 165px;
 }
 div{
     width: 350px;
@@ -53,17 +70,44 @@ div{
 }
 .team{
     border-top: 4px solid hsl(0, 78%, 62%);
+    position: absolute;
+    bottom: 170px;
 }
 .karma{
     border-top: 4px solid hsl(34, 97%, 64%);
+    position: absolute;
 }
 h1{
-    font-family: Poppins;
-    font-weight: 600;
+    font-family: ExtraLight-Poppins;
+    color: #53535D;
+    margin: 0;
+    font-size: 36px;
 }
 h2{
     font-family: SemiBold-Poppins;
+    font-size: 36px;
+    margin: 0;
 }
 h3{
     font-family: ExtraLight-Poppins;
+}
+.txt-header{
+    color: #7F7D86;
+    font-size: 16px;
+    font-family: Poppins;
+    width: 465px;
+    text-align: center;
+}
+img{
+    top: 35px;
+    position: relative;
+    float: right;
+}
+span{
+    font-family: SemiBold-Poppins;
+    font-size: 22px;
+}
+p{
+    color: #BABABC;
+    font-family: Poppins;
 }
