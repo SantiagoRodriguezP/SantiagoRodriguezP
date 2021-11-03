@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0; */
+}
+@font-face {
+    font-family: JosefinSans;
+    src: url(fuentes/JosefinSans-Light.ttf);
+}
+
+@font-face {
+    font-family: JosefinSans-Regular;
+    src: url(fuentes/JosefinSans-Regular.ttf);
+}
+@font-face {
+    font-family: JosefinSans-SemiBold;
+    src: url(fuentes/JosefinSans-SemiBold.ttf);
+}
+main section:nth-child(1)::before{
+    position: fixed;
+    bottom: 0;
+    transition: .4s;
+    content: "";
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    width: 62%;
+    height: 100%;
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-family: JosefinSans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+/* identical to box height */
+    color: #CE9797;
+    margin-bottom: 5px;
+}
+h2{
+    font-family: JosefinSans;
+    /* font-style: normal; */
+    /* font-weight: 600; */
+    font-size: 58px;
+    line-height: 58px;
+    color: #413A3A;
+    letter-spacing: 15px;
+    margin-top: 5px;
+}
+.container{
+    display: flex;
+    /* position: absolute; */
+    /* margin-left: 170px; */
+    width: 62%;
+}
+.contenido{
+    width: 43%;
+    margin-top: 45px;
+    margin-left: 170px;
+}
+main:nth-child(2){
+    display: flex;
+    width: 50%;
+
+}
+
+p{
+    font-family: JosefinSans-Regular;
+    font-size: 16px;
+    line-height: 25px;
+    /* align-items: center; */
+    color: #CE9797;
+}
+main section:nth-child(2){
+    width: 38%;
+}
+.div-img{
+    content: "";
+    background: url(images/hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;        /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+    height:100%;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.mail{
+    height: 48px;
+    width: 325px;
+    border: 1px solid rgba(65, 58, 58, 0.24);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.mail::-webkit-input-placeholder {
+    padding-left: 25px;
+    line-height: 100px;/* Centrado vertical */
+    color: grey;
+  }
+.mail:focus{
+    border: 2px solid rgba(249, 98, 98, 0.7);
+  }
+  input[type="submit"] {
+    margin-left: -40px;
+    height: 25px;
+    width: 50px;
+    background: blue;
+    color: white;
+    border: 0;
+    -webkit-appearance: none;
+}
+.button{
+    left: 43.73%;
+    right: 44.73%;
+    top: 72.57%;
+    bottom: 1%;
+    background: #F8CDCE;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+@media only screen and (min-width:0px) and (max-width:1020px) {
+    .div-img{
+        width: 100%;
+        height: 100%;
+        padding-left:115px;
+        background: url(images/hero-mobile.jpg);
+        background-size: cover;
+    }
+    main{
+        flex-direction: column-reverse;
+    }
+    .container{
+        height: 50%;
+        width: 100%;
+        justify-content: center;
+    }
+    main section:nth-child(2){
+        height: 35%;
+        width: 100%;
+    }
+    .img-prp{
+        position: absolute;
+        top: 30px;
+        left: 40px;
+    }
+    main section:nth-child(1)::before{
+        height: 50%;
+        width: 100%;
+        background-size: cover;
+    }
+    .contenido{
+        margin-left: 12px;
+        width: 100%;
+        align-items: center;
+        margin-top: 0px;
+    }
+    h1{
+        text-align: center;
+        font-size: 46px;
+    }
+    h2{
+        text-align: center;
+        font-size: 46px;
+        font-family: JosefinSans-SemiBold;
+    }
+    p{
+        text-align: center;
+    }
+    figcaption{
+        text-align: center;
+    }
+}
