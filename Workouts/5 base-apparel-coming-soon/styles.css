@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    /* margin: 0; */
 }
 @font-face {
     font-family: JosefinSans;
@@ -36,7 +35,7 @@ h1{
     font-family: JosefinSans;
     font-style: normal;
     font-weight: 300;
-    font-size: 64px;
+    font-size: 50px;
     line-height: 64px;
 /* identical to box height */
     color: #CE9797;
@@ -46,11 +45,12 @@ h2{
     font-family: JosefinSans;
     /* font-style: normal; */
     /* font-weight: 600; */
-    font-size: 58px;
+    font-size: 50px;
     line-height: 58px;
     color: #413A3A;
     letter-spacing: 15px;
     margin-top: 5px;
+    margin-bottom: 20px;
 }
 .container{
     display: flex;
@@ -66,9 +66,7 @@ h2{
 main:nth-child(2){
     display: flex;
     width: 50%;
-
 }
-
 p{
     font-family: JosefinSans-Regular;
     font-size: 16px;
@@ -106,7 +104,7 @@ main section:nth-child(2){
 .mail:focus{
     border: 2px solid rgba(249, 98, 98, 0.7);
   }
-  input[type="submit"] {
+  /* input[type="submit"] {
     margin-left: -40px;
     height: 25px;
     width: 50px;
@@ -114,17 +112,45 @@ main section:nth-child(2){
     color: white;
     border: 0;
     -webkit-appearance: none;
+} */
+input{
+    background-color: transparent;
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 15px 30px;
+    height: 55px;
+    width: 100%;
 }
-.button{
-    left: 43.73%;
-    right: 44.73%;
-    top: 72.57%;
-    bottom: 1%;
-    background: #F8CDCE;
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 40px;
+button{
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  box-shadow: 2px 5px 10px hsla(0, 36%, 70%, 0.5);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 15px;
+  position: relative;
+  top: -52px;
+  right: 0;
+  left: 256px;
+  transition: opacity 0.2s ease;
+  height: 55px;
+  width: 100px;
 }
-@media only screen and (min-width:0px) and (max-width:1020px) {
+.error-icon{
+    position: relative;
+    top: -50px;
+    left: 245px;
+}
+small{
+
+color: hsl(0,93%, 68%);
+
+margin-top: 0px;
+
+margin-left: 0;
+}
+@media only screen and (min-width:0px) and (max-width:700px) {
     .div-img{
         width: 100%;
         height: 100%;
