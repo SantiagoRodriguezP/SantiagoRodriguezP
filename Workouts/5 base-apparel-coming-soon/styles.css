@@ -143,12 +143,9 @@ button{
     left: 245px;
 }
 small{
-
-color: hsl(0,93%, 68%);
-
-margin-top: 0px;
-
-margin-left: 0;
+color: hsl(0,93%, 68%);
+margin-top: 0px;
+margin-left: 0;
 }
 @media only screen and (min-width:0px) and (max-width:700px) {
     .div-img{

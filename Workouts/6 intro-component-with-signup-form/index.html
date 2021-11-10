@@ -13,16 +13,30 @@
           invaluable.
         </p>
       </section>
-      
+
       <section class="form">
-        <button class="suscribe"><span>Try it free 7 days</span> then $20/mo. thereafter</button>
+        <button class="suscribe">
+          <span class="txtFree">Try it free 7 days</span> then $20/mo. thereafter
+        </button>
         <div class="div-form">
-          <form>
-            <input type="text" placeholder="Name" />
-            <input type="text" placeholder="Last Name" />
-            <input type="email" placeholder="Email Address" />
-            <input type="password" placeholder="Password" />
-            <button>CLAIM YOUR FREE TRIAL</button>
+          <form class="form">
+            <div>
+              <input type="text" placeholder="First Name" />
+              <span>First Name cannot be empty</span>
+            </div>
+            <div>
+              <input type="text" placeholder="Last Name" />
+              <span>Last Name cannot be empty</span>
+            </div>
+            <div>
+              <input type="email" placeholder="Email Address" />
+              <span>Looks like this is not  an email</span>
+            </div>
+            <div>
+              <input type="password" placeholder="Password" />
+              <span>Password cannot be empty</span>
+            </div>
+            <button type="submit">CLAIM YOUR FREE TRIAL</button>
             <small>By clicking the button, you are agreeing to our </small
             ><label>Terms and Services</label>
           </form>
