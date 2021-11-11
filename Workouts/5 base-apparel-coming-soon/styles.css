@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 @font-face {
     font-family: JosefinSans;
@@ -163,7 +164,7 @@ form input{
     width: 100%;
     height: 100%;
     outline: none;
-    border-radius: 5px;
+    border-radius: 10px;
     left: 0;
     top: 0;
     border: 1px solid hsl(0, 36%, 70%);
@@ -173,10 +174,10 @@ form input{
 form button{
     cursor: pointer;
     position: absolute;
-    right: 0;
+    right: -20px;
     top: 0;
     height: 100%;
-    width: 70px;
+    width: 85px;
     border-radius: 50px;
     outline: none;
     border: none;
@@ -195,14 +196,24 @@ form .error-icon{
     display: inline-block;
     position: absolute;
     top: 24%;
-    right: 85px;
+    right: 75px;
+    display: none;
 }
 form .error-text{
     position: absolute;
     left: 30px;
-    top: 40px;
+    top: 50px;
     font-size: 1rem;
-    
+    display: none;
+}
+form.error .error-text{
+    display: block;
+}
+form.error .error-icon{
+    display: block;
+}
+form.error input{
+    border: 2px solid hsl(0, 93%, 68%);
 }
 @media only screen and (min-width:0px) and (max-width:700px) {
     .div-img{
