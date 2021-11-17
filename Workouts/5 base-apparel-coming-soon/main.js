@@ -2,7 +2,7 @@ const form = document.querySelector("form");
 const email = document.querySelector("form input[type=email]");
 
 form.addEventListener('submit', ()=>{
-    let emailValue = email.value;
+    //let emailValue = email.value;
     let rta = validateEmail(email);
     if(rta==true){
         form.classList.remove('error');
