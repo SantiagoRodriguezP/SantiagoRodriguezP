@@ -5,7 +5,7 @@ habilidades en Css, por lo que se me complicó un poco el proceso del Responsive
 > Se que me falta un poco para que quede 100% igual al diseño propuesto, pero con un poco de práctica, estudio y retroalimentación lo puedo mejorar. 
 
 ## Resultado Web
-![image](https://user-images.githubusercontent.com/90514403/137401231-ed7a7a97-fc10-4268-a241-8d694ef69044.png)
+![image](https://user-images.githubusercontent.com/90514403/142285037-91339c58-f726-4b59-ad90-67b87baf0bbf.png)
 ****
 ## Resultado Mobile
 
