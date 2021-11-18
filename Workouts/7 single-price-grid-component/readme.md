@@ -1,11 +1,10 @@
 # Article Preview
-En este primer ejercicio realizé el diseño propuesto en Figma, [Article Preview](https://www.figma.com/file/w5btuPtYe8AWQt8HVJR4jh/Workouts?node-id=0:1) luego de eso el maquetado en HTML y Css, el proceso fue bastante entretenido, pero un poco frustrante, ya que no tengo muchas 
-habilidades en Css, por lo que se me complicó un poco el proceso del Responsive, estuve documentadome y aprendí que lo podía hacer con @mediquery.
+En este ejercicio apliqué los conocimientos que he obtenido de Flexbox, el diseño para Desktop se me facilita, pero al momento de hacerlo responsive para Mobile, me tiendo a enredar un poco y se hace el proceso un poco complejo por lo que no siempre resulta igual al diseño propuesto. 
 
-> Se que me falta un poco para que quede 100% igual al diseño propuesto, pero con un poco de práctica, estudio y retroalimentación lo puedo mejorar. 
+
 
 ## Resultado Web
-![image](https://user-images.githubusercontent.com/90514403/137401231-ed7a7a97-fc10-4268-a241-8d694ef69044.png)
+![image](https://user-images.githubusercontent.com/90514403/142282565-834fc13c-91c0-451e-8b2b-068966420adb.png)
 ****
 ## Resultado Mobile
 
