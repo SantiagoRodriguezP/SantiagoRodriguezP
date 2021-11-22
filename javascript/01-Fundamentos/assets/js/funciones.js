@@ -1,15 +1,15 @@
-function saludar(nombre){
+function saludar(nombre) {
     //console.log('Hola ' +nombre);
-    return [1,2]; 
+    return [1, 2];
 
     //Esto no se va a  ejecutar
     console.log("Codigo despues del return");
 }
 
 //Función Anonima
-const saludar2 = function(nombre){
+const saludar2 = function (nombre) {
     //console.log('Hola ' + nombre);
-  //  console.log(arguments);
+    //  console.log(arguments);
 }
 
 //funciones de flecha
@@ -32,9 +32,9 @@ const retornoSaludar = saludar("Santiago");
 //saludarFlecha2('Andrea');
 
 
-function sumar(a, b){
+function sumar(a, b) {
     return a + b;
-    
+
 }
 
 // const sumar2 = (a,b) =>
@@ -42,9 +42,9 @@ function sumar(a, b){
 //     return a +b;
 // }
 // Solo para retornar una linea
-const sumar2 = (a,b) =>  a + b;
+const sumar2 = (a, b) => a + b;
 
-function getAleatorio(){
+function getAleatorio() {
     return Math.random();
 }
 
