@@ -9,4 +9,4 @@ habilidades en Css, por lo que se me complicó un poco el proceso del Responsive
 ****
 ## Resultado Mobile
 
-![image](https://user-images.githubusercontent.com/90514403/137401264-d971df6d-2358-413c-8eea-36aa354b0159.png)
+![image](https://user-images.githubusercontent.com/90514403/143260765-ed86347d-397f-4ab6-b2cb-06f616577f4c.png)
