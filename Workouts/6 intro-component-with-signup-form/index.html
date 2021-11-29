@@ -21,22 +21,22 @@
         <div class="div-form">
           <form action="#" class="form">
             <div>
-              <input type="text" placeholder="First Name" class="name " />
+              <input type="text" placeholder="First Name" class="name " onkeyup="clean(0)" />
               <img src="images/icon-error.svg" class="error-icon-name">
               <span class="error-text-name error-txt">First Name cannot be empty</span>
             </div>
             <div>
-              <input type="text" placeholder="Last Name" class="last-name"/>
+              <input type="text" placeholder="Last Name" class="last-name" onkeyup="clean(1)"/>
               <img src="images/icon-error.svg" class="error-icon-last">
               <span class="error-text-last error-txt">Last Name cannot be empty</span>
             </div>
             <div>
-              <input type="email" placeholder="Email Address" class="mail"/>
+              <input type="email" placeholder="Email Address" class="mail" onkeyup="clean(2)"/>
               <img src="images/icon-error.svg" class="error-icon-mail">
               <span class="error-text-mail error-txt">Looks like this is not  an email</span>
             </div>
             <div>
-              <input type="password" placeholder="Password" class="pass"/>
+              <input type="password" placeholder="Password" class="pass" onkeyup="clean(3)"/>
               <img src="images/icon-error.svg" class="error-icon-pass">
               <span class="error-text-pass error-txt">Password cannot be empty</span>
             </div>
