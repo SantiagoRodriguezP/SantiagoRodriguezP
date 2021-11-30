@@ -1,0 +1,150 @@
+@font-face {
+  font-family: Karla;
+  src: url(fuentes/Karla-Regular.ttf);
+}
+
+@font-face {
+  font-family: Karla-bold;
+  src: url(fuentes/Karla-Bold.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(204, 43%, 93%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  font-family: Karla;
+}
+main {
+  width: 627px;
+  height: 468px;
+  border-radius: 10px;
+  /* border: solid 1px red; */
+}
+main > header {
+  width: 625px;
+  height: 207px;
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  padding: 30px;
+}
+main > header > h1 {
+  font-family: Karla-bold;
+  font-size: 24px;
+  color: hsl(179, 62%, 43%);
+}
+main > header > h2 {
+  color: hsla(71, 73%, 54%, 1);
+  font-size: 18px;
+
+}
+p{
+    color: hsla(218, 22%, 67%, 1);
+    font-size: 16px;
+    font-family: 'Karla';
+}
+section {
+  height: 258px;
+  background: #2ab2af;
+  border-radius: 0px 0px 10px 10px;
+  padding: 1;
+  display: flex;
+  width: 625px;
+}
+article {
+  width: 318px;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+article > header > h3{
+    color: #ffffff;
+    font-size: 18px;
+}
+span{
+    font-size: 36px;
+    color: #ffffff;
+    font-family: Karla-bold;
+}
+small{
+    font-size: 14px;
+    color: #71DADD;
+    font-family: 'Karla';
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+label{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+button {
+  width: 234px;
+  height: 45px;
+  background: #c0df34;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  margin-top: 15px;
+  font-family: 'Karla-bold';
+}
+aside {
+  width: 310px;
+  /* height: 258px; */
+  background: #4abebd;
+  border-radius: 0px 0px 10px 0px;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+aside h3{
+    color: #ffffff;
+    font-size: 18px;
+}
+aside p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #d9f6f6;
+}
+.offert{
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 1024px) {
+    main > header{
+        width: 301px;
+        height: 271px;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        flex-direction: column;
+    }
+   section {
+        width: 301px;
+        height: 258px;
+        flex-direction: column;
+        border-radius: 0;
+    }
+    aside{
+        width: 301px;
+        height: 258px;
+        position: relative;
+        top: 64px;
+    }
+    main > header > h1 {
+        font-size: 18px;
+    }
+    main > header > h2 {
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+    }
+    span{
+        font-size: 28px;
+    }
+}

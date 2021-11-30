@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(fuentes/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: SemiBold-Poppins;
+    src: url(fuentes/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: ExtraLight-Poppins;
+    src: url(fuentes/Poppins-ExtraLight.ttf);
+}
+body{
+    background: #FAFAFA;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    margin: 15px;
+}
+h1{
+    font-family: ExtraLight-Poppins;
+    color: #9e9ea5;
+    margin: 0;
+    font-size: 33px;
+}
+h2{
+    font-family: SemiBold-Poppins;
+    font-size: 34px;
+    margin: 0;
+}
+h3{
+    font-family: ExtraLight-Poppins;
+}
+
+.txt-header{
+    color: #9a959a;
+    font-size: 16px;
+    font-family: Poppins;
+    width: 535px;
+    text-align: center;
+    align-self: center;
+}
+div{
+    width: 385px;
+    height: 205px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+p{
+    color: #BABABC;
+    font-family: Poppins;
+}
+span{
+    font-family: SemiBold-Poppins;
+    font-size: 22px;
+}
+img{
+    width: 50px;
+    height: auto;
+    float: right;
+    position: relative;
+    top: 25px;
+}
+.supervisor{
+    left: 151px;
+    top: 350px;
+    box-shadow: 0px 6px 8px 6px rgba(0, 0, 0, 0.06), inset 0px 4px 0px #46D2D1;
+}
+.calculator{
+    box-shadow: 0px 6px 8px 6px rgba(0, 0, 0, 0.06), inset 0px 4px 0px #529EF2;
+}
+.team-builder{
+    box-shadow: 0px 6px 8px 6px rgba(0, 0, 0, 0.06), inset 0px 4px 0px #EC5355;
+}
+.karma{
+    box-shadow: 0px 6px 8px 6px rgba(0, 0, 0, 0.06), inset 0px 4px 0px #FBAD4A;
+}
+@media only screen and (min-width:0px) and (max-width:1210px) {
+    main{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .txt-header{
+        font-size: 14px;
+        width: 80%;
+    }
+    p{
+        font-size: 12px;
+    }
+    div{
+        width: 300px
+    }
+    img{
+        /* top:20px; */
+    }
+
+}
