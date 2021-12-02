@@ -7,8 +7,6 @@ const getUsuario = async (id) =>{
     return data;
 }
 
-
-
 const createUsuario = async (usuario)=>{
     const resp = await fetch(urlCRUD, {
         method: 'POST',
@@ -17,7 +15,6 @@ const createUsuario = async (usuario)=>{
             'Content-Type' : 'aplication/son'
         }
     });
-
     return await resp.json();
 }
 
