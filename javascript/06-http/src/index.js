@@ -1,5 +1,6 @@
-import { init } from "./js/chistes-page";
-import { obtenerChiste, obtenerUsuarios } from "./js/http-provider";
+//import { init } from "./js/chistes-page";
+import { init } from "./js/usuarios-page";
+//import { obtenerChiste, obtenerUsuarios } from "./js/http-provider";
 
 /**
  * Petición Http - fetch - Get
@@ -19,7 +20,11 @@ fetch(jokeUrl).then(resp =>{
 
     //obtenerChiste().then(console.log);
 
-    //init();
+    
+    /**
+     * Usuarios
+     */
+    init();
 
 
-    obtenerUsuarios().then(console.log);
+    //obtenerUsuarios().then(console.log);

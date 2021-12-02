@@ -18,10 +18,16 @@ const obtenerChiste = async () => {
 }
 
 const obtenerUsuarios = async () => {
-    const resp = await fetch(urlUsuarios);
-    const { data:usuarios } = await resp.json();
+    try {
+        const resp = await fetch(urlUsuarios);
+        if (!resp.ok) throw 'No se pudo realizar';
+        const { data: usuarios } = await resp.json();
+        console.log("Entra aca");
+        return usuarios
+    } catch (err) {
+        throw err;
+    }
 
-    return usuarios
 
 }
 
