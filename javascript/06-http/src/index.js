@@ -1,8 +1,10 @@
 //import { init } from "./js/chistes-page";
 //import { init } from "./js/usuarios-page";
 //import { obtenerChiste, obtenerUsuarios } from "./js/http-provider";
+//import * as CRUD from './js/crud-provider'
+import { init }  from './js/archivos-page'
 
-import * as CRUD from './js/crud-provider'
+
 /**
  * Petición Http - fetch - Get
  */
@@ -29,7 +31,11 @@ fetch(jokeUrl).then(resp =>{
 
     //obtenerUsuarios().then(console.log);
 
-CRUD.getUsuario(2).then(console.log);
+
+    /**
+     * CRUD JS
+     */
+/*CRUD.getUsuario(2).then(console.log);
 
 CRUD.createUsuario({
     name: 'Santiago', 
@@ -41,4 +47,6 @@ CRUD.updateUsuario(1, {
     job: 'Assitant'
 }).then(console.log);
 
-CRUD.deleteUsuario(1).then(console.warn);
+CRUD.deleteUsuario(1).then(console.warn);*/
+
+init();
