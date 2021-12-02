@@ -1,7 +1,8 @@
 //import { init } from "./js/chistes-page";
-import { init } from "./js/usuarios-page";
+//import { init } from "./js/usuarios-page";
 //import { obtenerChiste, obtenerUsuarios } from "./js/http-provider";
 
+import * as CRUD from './js/crud-provider'
 /**
  * Petición Http - fetch - Get
  */
@@ -24,7 +25,20 @@ fetch(jokeUrl).then(resp =>{
     /**
      * Usuarios
      */
-    init();
-
+    //init();
 
     //obtenerUsuarios().then(console.log);
+
+CRUD.getUsuario(2).then(console.log);
+
+CRUD.createUsuario({
+    name: 'Santiago', 
+    job: 'Desarrollador'
+}).then(console.log);
+
+CRUD.updateUsuario(1, {
+    name: 'Angie', 
+    job: 'Assitant'
+}).then(console.log);
+
+CRUD.deleteUsuario(1).then(console.warn);
