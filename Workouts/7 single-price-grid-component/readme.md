@@ -8,4 +8,4 @@ En este ejercicio apliqué los conocimientos que he obtenido de Flexbox, el dise
 ****
 ## Resultado Mobile
 
-![image](https://user-images.githubusercontent.com/90514403/137401264-d971df6d-2358-413c-8eea-36aa354b0159.png)
+![image](https://user-images.githubusercontent.com/90514403/144882951-cb9277bf-c36c-4464-9615-610e216b2aae.png)
