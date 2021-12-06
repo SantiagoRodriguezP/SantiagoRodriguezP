@@ -2,7 +2,8 @@
 En este punto ya me siento con más experticia por lo que me pareció fácil realizar la maquetación y diseño propuesto, ya que he avanzado con flexbox, lo cual fácilta mucho el trabajo reponsivo. 
 
 ## Resultado Web
-![image](https://user-images.githubusercontent.com/90514403/143260984-5c7ea4ef-279d-4ce6-a0b4-3e821d018a2d.png)
+![image](https://user-images.githubusercontent.com/90514403/144882481-19645d33-2786-4c99-860d-e360f8274f54.png)
+
 ****
 ## Resultado Mobile
 
