@@ -1,0 +1,42 @@
+*{
+    text-decoration: underline;
+}
+h1{
+    color: steelblue;
+}
+.borde{
+    border: 1px solid red;
+}
+.titulo{
+    text-align: right;
+    color: tomato;
+}
+#section{
+    border: 1px solid orange;
+}
+
+#section h2{
+    text-align: center;
+}
+
+.😁{
+    color: darkblue;
+}
+[href]{
+    text-decoration: none;
+}
+[href="https://alexcgdesign.com/inicio"]{
+    color: darkred;
+}
+/*^ : Que tengan al pricipio ...*/
+[href^="hsttps"]{
+    color: greenyellow;
+}
+/*$ : Al final $*/
+[href$="org"]{
+    background: steelblue;
+}
+/*Que contenga la palabra*/
+[href*="alexcgdesign"]{
+    background: darksalmon;
+}

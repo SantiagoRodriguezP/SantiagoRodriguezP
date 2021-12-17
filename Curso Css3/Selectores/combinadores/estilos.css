@@ -1,0 +1,23 @@
+h2, h3 {
+    font-size: 25px;
+    font-family: 'Arial;
+}
+/*Que contiene*/
+.contenedor a{
+    text-decoration: none;
+    color: firebrick;
+}
+/*Hijo direto*/
+.contenedor>a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Selector de hermando adyacente*/
+h2+p{
+    color: gold;
+}
+/*A todos los elementos que esten despues de p*/
+h3~p{
+    color: indigo;
+}
