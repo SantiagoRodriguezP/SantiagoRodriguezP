@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+}
+@font-face {
+  font-family: LibreFranklin;
+  src: url(https://fonts.google.com/specimen/Libre+Franklin);
+}
+body {
+  font-family: LibreFranklin;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+h1 {
+  color: hsla(0, 0%, 59%, 1);
+  font-size: 48px;
+  font-family: LibreFranklin;
+  font-weight: normal;
+  line-height: 58px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+h1 > b {
+  color: #000000;
+}
+input {
+  width: 410px;
+  height: 53px;
+  border: 1px solid #c2d3ff;
+  padding-left: 25px;
+  border-radius: 20px;
+}
+button {
+  width: 197px;
+  height: 53px;
+  background: #4f7df3;
+  box-shadow: 0px 8px 4px rgba(194, 211, 255, 0.25);
+  border-radius: 20px;
+  border: none;
+  color: #ffffff;
+  font-weight: 6;
+  font-size: 20px;
+  font-style: normal;
+}
+.sendEmail {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.infoSuscribe {
+  color: hsla(209, 33%, 12%, 1);
+  font-size: 16px;
+  font-family: Libre Franklin;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+main {
+  /* display: flex; */
+  text-align: center;
+  /* justify-content: center; */
+  margin-top: 2;
+}
+
+.img-dashboard {
+  width: 641px;
+  height: 391px;
+  /* background: url(images/illustration-dashboard.png); */
+  filter: drop-shadow(0px 1px 4px rgba(255, 82, 99, 0.25));
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  color: #969696;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.facebook {
+  /* position: absolute; */
+  width: 30px;
+  height: 30px;
+  border: 1px solid #c2d3ff;
+  box-sizing: border-box;
+  border-radius: 63px;
+}
+.facebook > img {
+  color: #4f7df3;
+}
+.twiter {
+  color: #4f7df3;
+}
+.iconos{
+  display: flex;  
+  width: 100%;
+  justify-content: center;
+}
