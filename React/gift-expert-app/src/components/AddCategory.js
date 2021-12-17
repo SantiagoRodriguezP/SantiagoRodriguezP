@@ -3,16 +3,16 @@ import PropTypes from 'prop-types'
 
 export const AddCategory = ({setCategories}) => {
 
-    const [inputValue, setInputValue] = useState();
+    const [inputValue, setInputValue] = useState('');
 
     const handleInputChange = (e) => {
-        setInputValue(e.target.value)
+        setInputValue(e.target.value);
     }
 
     const handleSubmit = (e) => {
         e.preventDefault(); // Prevenir el comportamiento por defecto
         if(inputValue.trim().length > 2){
-            setCategories(catg => [...catg, inputValue])
+            setCategories(catg => [inputValue, ...catg ])
             setInputValue('');
         }
 
@@ -31,5 +31,5 @@ export const AddCategory = ({setCategories}) => {
 }
 
 AddCategory.propTypes = {
-    value: PropTypes
+    setCategories: PropTypes.func.isRequired
 }
