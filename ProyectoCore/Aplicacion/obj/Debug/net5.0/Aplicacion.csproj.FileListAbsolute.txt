@@ -1,0 +1,17 @@
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Aplicacion\bin\Debug\net5.0\Aplicacion.deps.json
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Aplicacion\bin\Debug\net5.0\Aplicacion.dll
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Aplicacion\bin\Debug\net5.0\ref\Aplicacion.dll
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Aplicacion\bin\Debug\net5.0\Aplicacion.pdb
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Aplicacion\bin\Debug\net5.0\Dominio.dll
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Aplicacion\bin\Debug\net5.0\Persistencia.dll
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Aplicacion\bin\Debug\net5.0\Dominio.pdb
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Aplicacion\bin\Debug\net5.0\Persistencia.pdb
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Aplicacion\obj\Debug\net5.0\Aplicacion.csproj.AssemblyReference.cache
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Aplicacion\obj\Debug\net5.0\Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Aplicacion\obj\Debug\net5.0\Aplicacion.AssemblyInfoInputs.cache
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Aplicacion\obj\Debug\net5.0\Aplicacion.AssemblyInfo.cs
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Aplicacion\obj\Debug\net5.0\Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Aplicacion\obj\Debug\net5.0\Aplicacion.csproj.CopyComplete
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Aplicacion\obj\Debug\net5.0\Aplicacion.dll
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Aplicacion\obj\Debug\net5.0\ref\Aplicacion.dll
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Aplicacion\obj\Debug\net5.0\Aplicacion.pdb
