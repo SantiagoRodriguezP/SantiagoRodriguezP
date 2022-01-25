@@ -9,7 +9,9 @@ C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Persistenci
 C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Persistencia\obj\Debug\net5.0\Persistencia.AssemblyInfoInputs.cache
 C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Persistencia\obj\Debug\net5.0\Persistencia.AssemblyInfo.cs
 C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Persistencia\obj\Debug\net5.0\Persistencia.csproj.CoreCompileInputs.cache
-C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Persistencia\obj\Debug\net5.0\Persistencia.csproj.CopyComplete
 C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Persistencia\obj\Debug\net5.0\Persistencia.dll
 C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Persistencia\obj\Debug\net5.0\ref\Persistencia.dll
 C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Persistencia\obj\Debug\net5.0\Persistencia.pdb
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Persistencia\bin\Debug\net5.0\Persistencia.runtimeconfig.json
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Persistencia\bin\Debug\net5.0\Persistencia.runtimeconfig.dev.json
+C:\Users\Santiago.rodriguez\Desktop\Semillero-SincoSoft\ProyectoCore\Persistencia\obj\Debug\net5.0\Persistencia.genruntimeconfig.cache
