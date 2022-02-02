@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
@@ -11,7 +12,7 @@ namespace Aplicacion.Cursos
     public class Eliminar
     {
         public class Ejecuta : IRequest{
-            public int Id {get; set;}
+            public Guid Id {get; set;}
         }
         public class Manejador : IRequestHandler<Ejecuta>
         {
@@ -21,6 +22,22 @@ namespace Aplicacion.Cursos
             }
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
+                var instructoresDB = _context.CursoInstructor.Where(x => x.CursoId == request.Id);
+                foreach(var instructor in instructoresDB){
+                    _context.CursoInstructor.Remove(instructor);
+                }
+
+
+                var comentariosDB = _context.Comentario.Where(x => x.CursoId == request.Id);
+                foreach(var cmt in comentariosDB){
+                    _context.Comentario.Remove(cmt);
+                }
+                var precioDB = _context.Precio.Where(x=>x.CursoId == request.Id).FirstOrDefault();
+                if(precioDB!=null){
+                    _context.Precio.Remove(precioDB);
+                }
+
+
                 var curso = await _context.Curso.FindAsync(request.Id);
                 if(curso==null){
                    // throw new Exception("No se puede eliminar el curso");
