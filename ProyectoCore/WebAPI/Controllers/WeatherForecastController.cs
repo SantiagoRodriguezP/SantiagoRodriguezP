@@ -11,7 +11,7 @@ namespace WebAPI.Controllers
 {
     //http://localhost:5000/WeatherForecast
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private readonly CursosOnlineContext context;
